@@ -19,11 +19,11 @@ git reset .
 ´´´
 ## tomar foto del codigo o snapshot 
 
-´´´bash
-git commit -m "primer commit"
 
-´´´
+> git commit -m "primer commit"
+
+
 ## reconstruir al ultimo commit 
-$(
-git checkout -- . 
-)
+
+> git checkout -- . 
+
