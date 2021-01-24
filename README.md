@@ -24,9 +24,7 @@ git commit -m "primer commit"
 
 ´´´
 ## reconstruir al ultimo commit 
-
-´´´bash
+bash
 git checkout -- . 
 
-´´´
-
+
