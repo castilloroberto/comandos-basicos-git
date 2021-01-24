@@ -1,29 +1,28 @@
-# comandos utiles de git
+# Comandos utiles de git
 
 
-## inicializar repositorio 
-´´´bash
-git init
+## Inicializar repositorio 
 
-´´´
-## agregar todos los archivos al repositorio 
-´´´bash
-git add .
+> git init
 
-´´´
-## revertir el comando "git add"
+## Agregar todos los archivos al repositorio 
 
-´´´bash
-git reset .
+> git add .
 
-´´´
-## tomar foto del codigo o snapshot 
+
+## Revertir el comando "git add"
+
+
+> git reset .
+
+
+## Tomar foto del codigo o snapshot 
 
 
 > git commit -m "primer commit"
 
 
-## reconstruir al ultimo commit 
+## Reconstruir al ultimo commit 
 
 > git checkout -- . 
 
